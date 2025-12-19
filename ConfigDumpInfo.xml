@@ -8,7 +8,7 @@
 			<Metadata name="Catalog.СегментыКонтрагентов.Attribute.Описание" id="ab8b9866-1a78-471f-a7d6-c3d5c1f47199"/>
 		</Metadata>
 		<Metadata name="Catalog.СегментыКонтрагентов.Form.ФормаЭлемента" id="99359ae6-0f35-4c61-8e96-8de2d2212b3e" configVersion="014881d9d371eb0016295da3d316c8e4a539492e"/>
-		<Metadata name="Catalog.СегментыКонтрагентов.Form.ФормаЭлемента.Form" id="99359ae6-0f35-4c61-8e96-8de2d2212b3e.0" configVersion="6b8532afa835597c3c1f9ee30099fecf5c7f943a"/>
+		<Metadata name="Catalog.СегментыКонтрагентов.Form.ФормаЭлемента.Form" id="99359ae6-0f35-4c61-8e96-8de2d2212b3e.0" configVersion="4c8d09e679cb59bdf5a8783eec95f18e598ed6ea"/>
 		<Metadata name="Catalog.СегментыСотрудников" id="899fa433-d394-4eb0-b13f-61ecde268c10" configVersion="a622c5c36b446930fccbbc491fb7c2abd3fff360"/>
 		<Metadata name="Catalog.СегментыСотрудников.Form.ФормаЭлемента" id="c1cd531a-3bd2-4b79-86b1-0417fba0367d" configVersion="453caa6d8c0c11d717c5b00574314c89217db90c"/>
 		<Metadata name="Catalog.СегментыСотрудников.Form.ФормаЭлемента.Form" id="c1cd531a-3bd2-4b79-86b1-0417fba0367d.0" configVersion="3024e5e927800bb17981b4df44a74f2631736643"/>
