@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="ddd5ec27-f8c0-4b74-aca3-6803049804c9">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СегментыКонтрагентов" category="Object">
+				<xr:TypeId>03f8b4a7-c61f-4ac5-9828-8c59301eea71</xr:TypeId>
+				<xr:ValueId>356f77cc-624e-46af-8240-50f9709a96a5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СегментыКонтрагентов" category="Ref">
+				<xr:TypeId>09779d16-a464-4f16-b3b8-ad71821d8438</xr:TypeId>
+				<xr:ValueId>44e50157-8353-4443-a5f9-50138bf85bb1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СегментыКонтрагентов" category="Selection">
+				<xr:TypeId>7836688b-eab1-4813-b50c-5185b6007810</xr:TypeId>
+				<xr:ValueId>effece2d-cc6a-4231-a9f6-ff6dd4251fd9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СегментыКонтрагентов" category="List">
+				<xr:TypeId>37d5aad8-5d42-4252-9d92-da2850d32513</xr:TypeId>
+				<xr:ValueId>8dde2d01-faf2-42d8-a56b-a5e8d02e47da</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СегментыКонтрагентов" category="Manager">
+				<xr:TypeId>fe718e70-fae5-4029-b1de-87fa35cb47b4</xr:TypeId>
+				<xr:ValueId>9dca05ff-f1c2-460f-8e9d-ed5fbfcc2cfe</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СегментыКонтрагентов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>ca1eece4-87f3-4716-83e7-f5cc622f8a6c</ExtendedConfigurationObject>
+			<DescriptionLength>100</DescriptionLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="84f719e0-037c-413c-92b5-d046a01f22c1">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СпособФормирования</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5485a280-7f10-4014-be35-7c3289039634</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.СпособыФормированияСегментов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="763a9608-9f66-4fc4-b1ab-5eb3456c3138">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СтруктурнаяЕдиница</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>92344407-1c4f-4ddc-b5a9-01e1c857ff96</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтруктурныеЕдиницы</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ab8b9866-1a78-471f-a7d6-c3d5c1f47199">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Описание</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>51ed6905-64b4-4de4-8dfd-063494c297d9</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаЭлемента</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

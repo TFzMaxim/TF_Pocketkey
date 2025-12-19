@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="4c924a90-81d7-47ed-aa44-717fbe244c5b">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.Посещение" category="Object">
+				<xr:TypeId>c9d0d9a1-a91b-4b02-98ac-7b91c9ee21b6</xr:TypeId>
+				<xr:ValueId>8d4aa516-99df-42a9-8b35-1d0d9a1c3d6b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.Посещение" category="Ref">
+				<xr:TypeId>f9b624bd-7615-4fec-9352-50fb1fc15994</xr:TypeId>
+				<xr:ValueId>42f10a46-8e47-4ada-a5c8-a238c48134fc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.Посещение" category="Selection">
+				<xr:TypeId>426df9d0-86d4-4b59-a0e0-79371982b165</xr:TypeId>
+				<xr:ValueId>6372863b-bfff-4f2a-ab6e-824afbdf2f01</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.Посещение" category="List">
+				<xr:TypeId>04ebba22-36f1-4c11-8be0-216390159246</xr:TypeId>
+				<xr:ValueId>265123dd-e3b5-4e9b-82a7-6addababa167</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.Посещение" category="Manager">
+				<xr:TypeId>e149ed3a-5fde-4e5a-89e8-5193812d7d37</xr:TypeId>
+				<xr:ValueId>ed00f3ab-13b4-4725-8624-8bc5f97117d7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+			<xr:PropertyState>
+				<xr:Property>ManagerModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>Посещение</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>e6c7eaaf-3376-46f2-b996-931d24a55e98</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="f2278282-44d0-47a1-94cb-807dfbf80923">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаПрихода</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7630b5dd-956a-4dd4-a668-c7fbbe151c81</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="455718a2-2b8c-4108-ab41-55274de29356">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаУхода</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a592ee9b-9251-449d-97f6-534b92995979</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="635ddcff-d649-4998-9b5a-5529ff3abaa5">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаВъездаНаПарковку</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>fe3b79f3-cdee-4a53-a5a1-6d0991a23b53</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="dacf5cd3-59ce-4a4c-b6eb-a9baaed3f59c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаВыездаСПарковки</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f80ddfcd-622d-420c-a151-4857f56e94f8</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7abde3c3-8ea6-48ea-8fc6-3968ce7e2a4a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПосещениеЗакрыто</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>9163fe3f-7bc3-4a53-884b-4936012fb2cc</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3610c7db-2b0d-42c9-a9a7-e1ad594ffbf9">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Контрагент</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>632271ae-64cf-4d35-8fd3-98a7e3dec0ec</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

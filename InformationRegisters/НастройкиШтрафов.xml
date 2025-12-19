@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="2ce0b003-1762-41a1-9f06-633782449118">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.НастройкиШтрафов" category="Record">
+				<xr:TypeId>f3e45149-11fe-4d39-b2d1-01f41df44516</xr:TypeId>
+				<xr:ValueId>b2663e7c-82ca-48b6-9327-85053c670bc2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.НастройкиШтрафов" category="Manager">
+				<xr:TypeId>e00919de-2718-456a-93b7-b6dec85fd197</xr:TypeId>
+				<xr:ValueId>537e8a9e-f74e-4ca3-b0a0-f3833c181683</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.НастройкиШтрафов" category="Selection">
+				<xr:TypeId>ef2721e8-5fc3-499a-a910-f0e0d32d564d</xr:TypeId>
+				<xr:ValueId>58ecb3cf-fade-4211-b22d-755f4a006350</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.НастройкиШтрафов" category="List">
+				<xr:TypeId>04d0f669-fa71-4f5d-85d6-73a69b383b6b</xr:TypeId>
+				<xr:ValueId>f9f35c54-94bd-42fd-94ba-d21f9a166128</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.НастройкиШтрафов" category="RecordSet">
+				<xr:TypeId>bec65cc1-e321-4a07-b5b7-538393111805</xr:TypeId>
+				<xr:ValueId>3e7c6172-b957-49ed-b872-c76fca247477</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.НастройкиШтрафов" category="RecordKey">
+				<xr:TypeId>24304bdf-048c-4003-9650-2308f7036de8</xr:TypeId>
+				<xr:ValueId>279606b9-7849-4ca1-b88c-6bee489e9de9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.НастройкиШтрафов" category="RecordManager">
+				<xr:TypeId>0956934a-578c-4f48-be81-788eed21e5dc</xr:TypeId>
+				<xr:ValueId>ee24801e-6ff1-4746-8db1-0083068e2605</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ManagerModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>НастройкиШтрафов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>e19952ac-5299-4915-9a68-c92cdf1b4cf1</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаЗаписи</Form>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>
